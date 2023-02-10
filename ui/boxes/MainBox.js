@@ -145,7 +145,7 @@ const MainBox = () => {
                   <Grid item style={{ display: 'flex', padding: 4 }} >
                     <GroupIcon />
                   </Grid>
-                  <Grid container item style={{ display: 'flex', padding: 4 }} >
+                  <Grid container item style={{ display: 'flex', overflow: 'hidden', padding: 4 }} >
                     <Typography variant='b1' noWrap style={{ fontSize: '1rem' }} >
                       {`2 Tickets`}
                     </Typography>
